@@ -7,9 +7,8 @@ install flask through `pip install flask` and setup a postgres `pip install psyc
 
 save installed libraries to the requirements.txt file with `pip freeze > requirements.txt`
 
-add os.environ variables to the virtualenv wrapper's postactivate file with `vi $VIRTUAL_ENV/bin/postactivate` then hit `i`, add lines ```export APP_SETTINGS="config.DevelopmentConfig"
-export APP_SETTINGS="config.DevelopmentConfig"
-``` 
+add os.environ variables to the virtualenv wrapper's postactivate file with `vi $VIRTUAL_ENV/bin/postactivate` then hit `i`, add lines `export APP_SETTINGS="config.DevelopmentConfig"`
+`export APP_SETTINGS="config.DevelopmentConfig"`
 then hit esc, the :wq to save and out. deactivate/workon the virtualenv
 
 
